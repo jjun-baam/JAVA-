@@ -1,0 +1,47 @@
+package ch08;
+
+public class Order {
+
+	public int orderId;
+	public int orderPhoneNum;
+	public String orderAddr;
+	public int orderDate;
+	public int orderTime;
+	public int orderPrice;
+	public int menuId;
+	
+	public Order
+		  ( int orderId, 
+			int orderPhoneNum, 
+			String orderAddr, 
+			int orderDate, 
+			int orderTime, 
+			int orderPrice, 
+			int menuId ) 
+	{
+		this.orderId = orderId; 
+		this.orderPhoneNum = orderPhoneNum; 
+		this.orderAddr = orderAddr;
+		this.orderDate = orderDate;
+		this.orderTime = orderTime; 
+		this.orderPrice = orderPrice; 
+		this.menuId = menuId;
+	}
+	
+	public void orderInfo() {
+		System.out.println(String.format("주문 접수 번호 : %d\n"
+										+ "주문 핸드폰 번호 : %d\n"
+										+ "주문 집 주소 : %s\n"
+										+ "주문 날짜 : %d\n"
+										+ "주문 시간 : %d\n"
+										+ "주문 가격 : %d\n"
+										+ "메뉴 번호 : %d", 
+										orderId, 
+										orderPhoneNum, 
+										orderAddr, 
+										orderDate, 
+										orderTime, 
+										orderPrice, 
+										menuId));
+	}
+}
