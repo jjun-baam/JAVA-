@@ -1,0 +1,13 @@
+package ch14;
+
+public class TakeTransTest {
+
+	public static void main(String[] args) {
+
+		Student studentKim = new Student("JB", 10000);
+		Student studentLee = new Student("DB", 5000);
+		
+		
+	}
+
+}

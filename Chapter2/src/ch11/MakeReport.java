@@ -4,8 +4,8 @@ public class MakeReport {
 
 	StringBuffer buffer = new StringBuffer();
 	
-	private String line = "=================================================\n";
-	private String title = "이름\t\t주소\t\t    전화번호\n";
+	private String line = "=========================================================\n";
+	private String title = "이름\t\t주소\t\t\t    전화번호\n";
 	private void makeHeader() {
 		buffer.append(line);
 		buffer.append(title);
@@ -14,11 +14,11 @@ public class MakeReport {
 	
 	private void generateBody() {
 		buffer.append("Jjun baam\t");
-		buffer.append("Gyeonggi Ansan\t");
+		buffer.append("Gyeonggi Ansan\t\t");
 		buffer.append("    010-1234-9253\n");
 		
 		buffer.append("Dda Bi\t\t");
-		buffer.append("Gyeonggi Ansan\t");
+		buffer.append("Gyeonggi gwangmyeong\t");
 		buffer.append("    010-5678-9101\n");
 	}
 	

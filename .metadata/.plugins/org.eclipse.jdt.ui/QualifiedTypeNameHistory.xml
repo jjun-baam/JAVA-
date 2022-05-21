@@ -6,11 +6,21 @@
     <fullyQualifiedTypeName name="ch06.Student"/>
     <fullyQualifiedTypeName name="java.text.Format"/>
     <fullyQualifiedTypeName name="java.util.Date"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="ch08.Order"/>
     <fullyQualifiedTypeName name="ch09.Subject"/>
     <fullyQualifiedTypeName name="ch09.Student"/>
     <fullyQualifiedTypeName name="ch10.BirthDay"/>
     <fullyQualifiedTypeName name="java.lang.StringBuffer"/>
     <fullyQualifiedTypeName name="ch11.MakeReport"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="ch12.Person"/>
+    <fullyQualifiedTypeName name="ch14.Student"/>
+    <fullyQualifiedTypeName name="ch14.Bus"/>
+    <fullyQualifiedTypeName name="ch14.Subway"/>
+    <fullyQualifiedTypeName name="ch15.Person"/>
+    <fullyQualifiedTypeName name="ch15.Taxi"/>
+    <fullyQualifiedTypeName name="ch16.Employee"/>
+    <fullyQualifiedTypeName name="ch18.Company"/>
+    <fullyQualifiedTypeName name="java.util.Calendar"/>
+    <fullyQualifiedTypeName name="ch19.CarFactory"/>
 </qualifiedTypeNameHistroy>

@@ -1,0 +1,16 @@
+package ch15;
+
+public class Taxi {
+
+	String taxiCompanyName;
+	int money;
+	
+	public Taxi(String taxiCompanyName, int money) {
+		this.taxiCompanyName = taxiCompanyName;
+		this.money = money;
+	}
+	
+	public void take(int money) {
+		
+	}
+}

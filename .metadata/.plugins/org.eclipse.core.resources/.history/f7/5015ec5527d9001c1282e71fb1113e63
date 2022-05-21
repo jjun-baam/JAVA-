@@ -1,0 +1,13 @@
+package ch16;
+
+public class EmployeeTest {
+
+	public static void main(String[] args) {
+
+		Employee employee = new Employee();
+		employee.setEmployeeName("±èÁØ¹ü");
+		
+		System.out.println(employee.serialNum);
+	}
+
+}
