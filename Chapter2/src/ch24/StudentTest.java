@@ -1,0 +1,21 @@
+package ch24;
+
+public class StudentTest {
+
+	public static void main(String[] args) {
+		
+		Student studentLee = new Student(9324, "´Ùºñ");
+		studentLee.addSubject("À½¾Ç", 100);
+		studentLee.addSubject("Á¦»§", 100);
+		studentLee.showScoreInfo();
+		
+		System.out.println("=================================");
+		
+		Student studentKim = new Student(9253, "¹ã");
+		studentKim.addSubject("ÀÚ¹Ù", 100);
+		studentKim.addSubject("¿µ¾î", 70);
+		studentKim.addSubject("¼öÇÐ", 60);
+		studentKim.showScoreInfo();
+	}
+
+}
