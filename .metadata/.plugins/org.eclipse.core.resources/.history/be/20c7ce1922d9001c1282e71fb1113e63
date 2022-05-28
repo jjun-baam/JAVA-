@@ -1,9 +1,0 @@
-package ch15;
-
-public class Taxi {
-
-	String taxiCompanyName;
-	int money;
-	
-	public Taxi
-}
