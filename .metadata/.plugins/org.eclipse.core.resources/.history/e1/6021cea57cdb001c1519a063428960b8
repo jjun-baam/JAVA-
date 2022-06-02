@@ -1,8 +1,0 @@
-package ch20;
-
-public class CharArrayTest {
-	public static void main(String[] args) {
-		
-	}
-
-}

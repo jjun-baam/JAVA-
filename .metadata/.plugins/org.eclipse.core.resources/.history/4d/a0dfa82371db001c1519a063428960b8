@@ -1,6 +1,0 @@
-package ch19;
-
-public class Car {
-
-	private int carNum;
-}
